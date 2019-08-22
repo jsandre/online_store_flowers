@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" > 
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <ul>
+						<li><a href="account.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Войти</a></li>
+						<li><a href="register.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Регистрация</a></li>			
+					</ul>  
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 head-right">
+                    <a href="checkout.html">
+								<h3> <span class="simpleCart_total"> BYN 0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>)<i class="fa fa-shopping-basket" aria-hidden="true"></i></h3>
+							</a>	
+							<p><a href="javascript:;" class="simpleCart_empty">Ваша корзина пуста</a></p>
+				<div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg-banner">
+         <div id="one"><img src="images/petal_1.png" class="rellax" data-rellax-percentage="0.4" alt="petal"></div>
+         <div id="two"><img src="images/petal_2.png" class="rellax" data-rellax-percentage="0.5" alt="petal"></div>
+         <div id="three"><img src="images/petal_3.png" class="rellax" data-rellax-percentage="0.6" alt="petal"></div>
+         <div id="four"><img src="images/petal_4.png" class="rellax" data-rellax-percentage="0.3" alt="petal"></div>
+         <div id="five"><img src="images/petal_5.png" class="rellax" data-rellax-percentage="0.7" alt="petal"></div>
+          <div class="main-menu">
+				<nav class="navbar navbar-default">
+			<div class="container">
+			  <div class="main-menu-bg">
+				<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+						  <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Мегацвет"><span>Мегацвет</span></a>
+						</div>
+        
+				<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="main-menu">
+					    <ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">Каталог товаров</a></li>
+							<li><a href="#">Доставка</a></li>
+							<li><a href="#">Оплата</a></li>
+							<li><a href="#">Контакты</a></li>
+				        </ul> <!--/for nav navbar-nav-->
+                    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.main-menu-bg -->
+			  </div><!-- /.container-fluid -->
+			</nav>	
+    	</div><!--/main-menu -->
+        <div class="container basket">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <img id="basket-rose" src="images/basket.png" alt="basket">
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 text-center">
+                   <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+	                    <!-- Слайды карусели -->
+	                    <div class="carousel-inner">
+		                <!-- Слайд 1 -->
+		                    <div class="item active">
+			                    <h2>Доставка цветов в г.Гомеле</h2>
+                                <p>Букет цветов - вместо тысячи слов!</p>
+                            </div>
+		                    <!-- Слайд 2 -->
+		                    <div class="item">
+			                    <h2>Широкий асссортимент</h2>
+                                <p>Композиции из цветов: любой сложности и на любой вкус.</p>
+                            </div>
+		                    <!-- Слайд 3 -->
+		                    <div class="item">
+			                    <h2>Всегда в наличии и под заказ</h2>
+                                <p>Свежие цветы в любое время года!</p>
+		                    </div>
+	                    </div>
+	               </div>
+	               <button type="button" class="btn btn-default fuchsia">Перейти в каталог</button>
+                </div>
+            </div>
+        </div>
+        </section>
+        <setion class="products">
+               <div class="container">
+                <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/rose_freedom.png" alt="роза-Фридом">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/radost.png" alt="БукетРадость">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/gerbera.png" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/vintage.png" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/vesna.png" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/radost.png" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/gerbera.png" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/rose_freedom.png" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/vintage.png" alt="...">
+              <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>  
+        </div> <!--./row -->
+        </div> <!--./container -->
+    </setion>
+        <section class="slide_product">
+            
+        </section>
+        <section class="social_media"></section>
+    </main>
+    <footer>
+        
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/rellax.min.js"></script>
+    <script>
+		var rellax = new Rellax('.rellax', {center: true});
+	</script>
+  </body>
+</html>
